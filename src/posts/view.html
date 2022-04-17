@@ -1,0 +1,12 @@
+<template>
+
+  <require from="../resources/elements/blog-post"></require>
+
+  <div class="alert alert-danger" role="alert" if.bind="error">
+    ${error}
+    Простое danger оповещение - проверьте!
+  </div>
+
+  <blog-post post.bind="post"></blog-post>
+
+</template>
