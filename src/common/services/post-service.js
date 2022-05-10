@@ -16,7 +16,7 @@ export class PostService {
           author: "Nick Shallee",
           slug: "my-first-post",
           tags: ["aurelia", "lorem", "javascript"],
-          createdAt: new Date("July 1, 2017"),
+          createdAt: new Date("July 1, 2017, 23:15"),
         },
         {
           title: "My second post",
@@ -24,7 +24,7 @@ export class PostService {
           author: "Jane Doe",
           slug: "my-second-post",
           tags: ["javascript", "learning"],
-          createdAt: new Date("August 17, 2017"),
+          createdAt: new Date("August 17, 2017, 11:23"),
         },
         {
           title: "My third post",
@@ -32,7 +32,7 @@ export class PostService {
           author: "Nick Shallee",
           slug: "my-third-post",
           tags: ["kafka"],
-          createdAt: new Date("December 1, 2017"),
+          createdAt: new Date("December 16, 2017, 15:34"),
         },
       ];
     }
