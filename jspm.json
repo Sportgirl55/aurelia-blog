@@ -1,0 +1,83 @@
+{
+  "resolve": {
+    "@jspm/core": "npm:@jspm/core@1.1.1",
+    "aurelia-validation": "npm:aurelia-validation@1.6.0",
+    "moment": "npm:moment@2.29.3"
+  },
+  "dependencies": {
+    "npm:@jspm/core@1.1.1": {
+      "source": "https://registry.npmjs.org/@jspm/core/-/core-1.1.1.tgz#sha512-5JjuDSzcxuxgzJ/+ynA7bcqZkI9CdDBERXOnDGdhphxNfmd4PkNl0RDE4hUH0+n8yEaz08Tdmjgxe7tlX3LmRA=="
+    },
+    "npm:aurelia-binding@2.5.4": {
+      "source": "https://registry.npmjs.org/aurelia-binding/-/aurelia-binding-2.5.4.tgz#sha512-tYhYCFvQne+chO3p8KntCWj0r8oCXiCOGQ0yFbthHDBpjjTA4QlBwpGQ8nlGoGDKj7n4PoobeIjN3lEDKgKUyw==",
+      "resolve": {
+        "aurelia-logging": "npm:aurelia-logging@1.5.2",
+        "aurelia-pal": "npm:aurelia-pal@1.8.2",
+        "aurelia-task-queue": "npm:aurelia-task-queue@1.3.3",
+        "aurelia-metadata": "npm:aurelia-metadata@1.0.7"
+      }
+    },
+    "npm:aurelia-dependency-injection@1.5.2": {
+      "source": "https://registry.npmjs.org/aurelia-dependency-injection/-/aurelia-dependency-injection-1.5.2.tgz#sha512-LnKgpXzKuG2A/YPGeg5OOw8zvkbvDBMRJA9QDCjZlxymsPI98dwggNSQHI8UK+hTIBqOmjjRxqdMoeROo2Gpbw==",
+      "resolve": {
+        "aurelia-pal": "npm:aurelia-pal@1.8.2",
+        "aurelia-metadata": "npm:aurelia-metadata@1.0.7"
+      }
+    },
+    "npm:aurelia-loader@1.0.2": {
+      "source": "https://registry.npmjs.org/aurelia-loader/-/aurelia-loader-1.0.2.tgz#sha512-3owEe5Zsk8cIJG+zcxN6gzqUr2z2c+FKhtrL49e1j8vE4ccQQjXg+tvKFnfBVf3pwma6A474WsdK8poYhoVZyA==",
+      "resolve": {
+        "aurelia-metadata": "npm:aurelia-metadata@1.0.7",
+        "aurelia-path": "npm:aurelia-path@1.1.7"
+      }
+    },
+    "npm:aurelia-logging@1.5.2": {
+      "source": "https://registry.npmjs.org/aurelia-logging/-/aurelia-logging-1.5.2.tgz#sha512-R0UdpGYBNSosBZ9WefmoIpgr36szFwQrRk2pbblhI+Vx911dUEEW85QXb6BRKVAP1ykz52Fuq8lCZxR6UupQXA=="
+    },
+    "npm:aurelia-metadata@1.0.7": {
+      "source": "https://registry.npmjs.org/aurelia-metadata/-/aurelia-metadata-1.0.7.tgz#sha512-6Q3VV5VvCRjvJyICESwCNSWLkaYml9PAxHo5SjzVv+HNmvFtQRKRazczwECbTD6IWiE+O90+PmamPy4Ac2YnTA==",
+      "resolve": {
+        "aurelia-pal": "npm:aurelia-pal@1.8.2"
+      }
+    },
+    "npm:aurelia-pal@1.8.2": {
+      "source": "https://registry.npmjs.org/aurelia-pal/-/aurelia-pal-1.8.2.tgz#sha512-6erozUK5aaD88PvThs/L87kLsqxqPaBU59PGECr36v9yezhve0BHqpKgbtJ8haHJSiH80K9lsJtXfefedS/3sw=="
+    },
+    "npm:aurelia-path@1.1.7": {
+      "source": "https://registry.npmjs.org/aurelia-path/-/aurelia-path-1.1.7.tgz#sha512-D6/Tz8jE8b2+Y8Pt6P/fxF6xfJGef+TA6YEljzo1kEzyzbxIvwfqc7pK6i/XGY3LowlumPqrhxkfMjPxLpFIcA=="
+    },
+    "npm:aurelia-task-queue@1.3.3": {
+      "source": "https://registry.npmjs.org/aurelia-task-queue/-/aurelia-task-queue-1.3.3.tgz#sha512-ua3J2YO+cZgpn1MqxPlanSDXG4SB0BXotxYDW1iL5f6AsoEvJ3BycZJYw/N9hMQKmWniOeaBr7wGQ+KDiZFywQ==",
+      "resolve": {
+        "aurelia-pal": "npm:aurelia-pal@1.8.2"
+      }
+    },
+    "npm:aurelia-templating@1.11.1": {
+      "source": "https://registry.npmjs.org/aurelia-templating/-/aurelia-templating-1.11.1.tgz#sha512-7Zrb/yvnIYBIlqGaLXIiBsmWMoFwo3SSoxyoucqWe/M80YpR4LJaTEKoZxhZZI6x9pU+tlFOBkwd/sA1JqPR8w==",
+      "resolve": {
+        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.5.2",
+        "aurelia-logging": "npm:aurelia-logging@1.5.2",
+        "aurelia-pal": "npm:aurelia-pal@1.8.2",
+        "aurelia-task-queue": "npm:aurelia-task-queue@1.3.3",
+        "aurelia-loader": "npm:aurelia-loader@1.0.2",
+        "aurelia-path": "npm:aurelia-path@1.1.7",
+        "aurelia-metadata": "npm:aurelia-metadata@1.0.7",
+        "aurelia-binding": "npm:aurelia-binding@2.5.4"
+      }
+    },
+    "npm:aurelia-validation@1.6.0": {
+      "source": "https://registry.npmjs.org/aurelia-validation/-/aurelia-validation-1.6.0.tgz#sha512-47TbZ4VUwiVTfWexTjCMAd4DFMc8VqkibwSBZMe1/RPtgSsMffkXucQO5ANNI/e7N2+utx0qaTmEZpgGWvLL7w==",
+      "resolve": {
+        "aurelia-binding": "npm:aurelia-binding@2.5.4",
+        "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.5.2",
+        "aurelia-logging": "npm:aurelia-logging@1.5.2",
+        "aurelia-pal": "npm:aurelia-pal@1.8.2",
+        "aurelia-task-queue": "npm:aurelia-task-queue@1.3.3",
+        "aurelia-templating": "npm:aurelia-templating@1.11.1"
+      }
+    },
+    "npm:moment@2.29.3": {
+      "source": "https://registry.npmjs.org/moment/-/moment-2.29.3.tgz#sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw=="
+    }
+  }
+}

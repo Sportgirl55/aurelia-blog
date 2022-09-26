@@ -4,9 +4,12 @@
 
   <div class="alert alert-danger" role="alert" if.bind="error">
     ${error}
-    Простое danger оповещение - проверьте!
   </div>
 
   <blog-post post.bind="post"></blog-post>
+
+  <a  if.bind="authService.currentUser === post.author"
+      route-href="route: post-edit; params.bind: {slug: post.slug}"
+      class="btn btn-primary">Edit Post</a>
 
 </template>
